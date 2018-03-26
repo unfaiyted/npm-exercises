@@ -4,7 +4,9 @@
   "description": "exercises for class on npm",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "build:watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
@@ -25,6 +27,8 @@
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
-    "webpack": "^4.2.0"
+    "jquery": "^3.3.1",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.13"
   }
 }
